@@ -14,7 +14,6 @@ import static openbrewerydbbreweries.data.TestData.ERROR_MESSAGE;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SearchOpenbrewery {
-//    private final OpenbreweryService openbreweryService = new OpenbreweryService();
     private final OpenbrewerydbRestClient openbrewerydbRestClient = new OpenbrewerydbRestClient();
 
     @Test(dataProvider = "testDataForSearch", dataProviderClass = TestData.class)
